@@ -71,10 +71,10 @@ markdown_extensions:
 extra:
   alternate:
     - name: Español
-      link: /
+      link: /research/
       lang: es
     - name: English
-      link: /en/
+      link: /research/en/
       lang: en
 
 extra_javascript:

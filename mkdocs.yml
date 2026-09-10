@@ -62,6 +62,20 @@ plugins:
         - locale: en
           name: English
           build: true
+          nav_translations:
+            Inicio: Home
+            Proyectos: Projects
+            Visión general: Overview
+            Proyecto Alfa: Project Alpha
+            Ofertas TFG/TFM: BSc/MSc Thesis Offers
+            Activas: Active Offers
+            Histórico: Archive
+            Plantilla: Template
+            Recursos para Alumnos: Student Resources
+            Memorias: Thesis Guides
+            Presentaciones: Presentations
+            LaTeX: LaTeX
+            Publicaciones: Publications
 
 markdown_extensions:
   - admonition

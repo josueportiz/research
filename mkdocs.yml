@@ -50,6 +50,18 @@ theme:
 
 plugins:
   - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: false
+      languages:
+        - locale: es
+          default: true
+          name: Español
+          build: true
+        - locale: en
+          name: English
+          build: true
 
 markdown_extensions:
   - admonition
@@ -67,15 +79,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.arithmatex:
       generic: true
-
-extra:
-  alternate:
-    - name: Español
-      link: /research/
-      lang: es
-    - name: English
-      link: /research/en/
-      lang: en
 
 extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
